@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist-example",
+      "module": "commonjs",
+      "target": "es6",
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": [
+      "examples/example.ts"
+    ]
+  }
