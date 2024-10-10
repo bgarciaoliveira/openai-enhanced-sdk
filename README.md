@@ -24,7 +24,6 @@ A comprehensive TypeScript SDK for the OpenAI API, providing easy access to all 
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
-- [TODO](#todo)
 
 ## Features
 
