@@ -252,14 +252,6 @@ npm run test
 
 ## Documentation
 
-Generate the documentation using TypeDoc:
-
-```bash
-npm run docs
-```
-
-The documentation will be generated in the `docs` folder.
-
 For more detailed information, please refer to the [OpenAI Enhanced SDK Documentation](https://bgarciaoliveira.github.io/openai-enhanced-sdk/index.html).
 
 ## Contributing
