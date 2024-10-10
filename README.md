@@ -43,7 +43,7 @@ A comprehensive TypeScript SDK for the OpenAI API, providing easy access to all 
 Install the package via npm:
 
 ```bash
-npm install openai-sdk
+npm install openai-enhanced-sdk
 ```
 
 ## Getting Started
@@ -53,7 +53,7 @@ npm install openai-sdk
 Import and instantiate the `OpenAIClient`:
 
 ```typescript
-import OpenAIClient from 'openai-sdk';
+import OpenAIClient from 'openai-enhanced-sdk';
 
 const apiKey = process.env.OPENAI_API_KEY || '';
 const client = new OpenAIClient(apiKey);
