@@ -260,6 +260,8 @@ npm run docs
 
 The documentation will be generated in the `docs` folder.
 
+For more detailed information, please refer to the [OpenAI Enhanced SDK Documentation](https://bgarciaoliveira.github.io/openai-enhanced-sdk/index.html).
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
