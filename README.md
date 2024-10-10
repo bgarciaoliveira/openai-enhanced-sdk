@@ -1,6 +1,6 @@
 # OpenAI TypeScript SDK
 
-A comprehensive TypeScript SDK for the OpenAI API, providing easy access to all functionalities offered by OpenAI, including models, completions, **context management**, chat completions, edits, images, embeddings, audio, files, fine-tunes, and moderations.
+An enhanced TypeScript SDK for the OpenAI API, providing easy access to all functionalities offered by OpenAI, including models, completions, **context management**, chat completions, edits, images, embeddings, audio, files, fine-tunes, and moderations.
 
 ## Table of Contents
 
