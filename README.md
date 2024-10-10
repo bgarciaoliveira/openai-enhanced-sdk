@@ -270,6 +270,4 @@ This project is licensed under the MIT License.
 
 ---
 
-This SDK aims to provide a seamless experience when interacting with the OpenAI API. By following the TODO list, we can further enhance the SDK's capabilities and usability.
-
 If you have any questions or need assistance, feel free to reach out!
