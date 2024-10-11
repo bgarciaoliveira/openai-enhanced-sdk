@@ -1,6 +1,8 @@
-# OpenAI TypeScript SDK
+# OpenAI TypeScript Enhanced SDK
 
-An enhanced TypeScript SDK for the OpenAI API, providing easy access to all functionalities offered by OpenAI, including models, completions, **context management**, chat completions, edits, images, embeddings, audio, files, fine-tunes, and moderations.
+OpenAI Enhanced SDK is a **fully typed** TypeScript SDK that facilitates integration with the OpenAI API. It offers features that the official SDK does not have, such as context management for conversations, proxy support, automatic request retry mechanism, detailed logging system, among others.
+Additionally, the SDK implements most of the functionalities provided by the OpenAI API.
+*Note: This is an unofficial SDK and is not affiliated with OpenAI.*
 
 ## Table of Contents
 
