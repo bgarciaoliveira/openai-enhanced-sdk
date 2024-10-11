@@ -39,6 +39,11 @@
     "typedoc": "^0.26.8",
     "typescript": "^5.1.6"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bgarciaoliveira/openai-enhanced-sdk.git"
