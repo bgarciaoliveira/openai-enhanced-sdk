@@ -1,6 +1,6 @@
 {
   "name": "openai-enhanced-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An advanced TypeScript SDK for OpenAI API with built-in context management, proxy support, streaming, and enhanced error handling. Includes logging, retry mechanism, and fully typed responses for seamless AI integration.",
   "main": "dist/openai-client.js",
   "scripts": {
