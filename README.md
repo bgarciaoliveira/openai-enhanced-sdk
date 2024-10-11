@@ -1,3 +1,7 @@
+[![npm version](https://img.shields.io/npm/v/openai-enhanced-sdk.svg)](https://www.npmjs.com/package/openai-enhanced-sdk)
+[![Build Status](https://github.com/bgarciaoliveira/openai-enhanced-sdk/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/bgarciaoliveira/openai-enhanced-sdk/actions)
+[![License](https://img.shields.io/npm/l/openai-enhanced-sdk.svg)](LICENSE)
+
 # OpenAI TypeScript Enhanced SDK
 
 OpenAI Enhanced SDK is a **fully typed** TypeScript SDK that facilitates integration with the OpenAI API. It offers features that the official SDK does not have, such as context management for conversations, proxy support, automatic request retry mechanism, detailed logging system, among others.
@@ -50,14 +54,34 @@ npm install openai-enhanced-sdk
 ## Getting Started
 
 ### Initialization
-
-Import and instantiate the `OpenAIClient`:
-
 ```typescript
-import OpenAIClient from 'openai-enhanced-sdk';
+import OpenAIClient from '../src/openai-client';
+import { HttpsProxyAgent } from 'https-proxy-agent';
 
-const apiKey = process.env.OPENAI_API_KEY || '';
-const client = new OpenAIClient(apiKey);
+const apiKey = process.env.OPENAI_API_KEY;
+
+// Proxy agent configuration
+const proxyAgent = new HttpsProxyAgent('http://proxy.example.com:8080');
+
+const client = new OpenAIClient(apiKey, {
+  baseURL: 'https://api.openai.com/v1',
+  timeout: 10000,
+  proxyConfig: proxyAgent,
+  axiosConfig: {
+    headers: {
+      'Custom-Header': 'custom-value',
+    },
+  },
+  axiosRetryConfig: {
+    retries: 5,
+    retryDelay: 2000,
+  },
+  loggingOptions: {
+    logLevel: 'info',
+    logToFile: true,
+    logFilePath: 'logs/openai-client.log',
+  },
+});
 ```
 
 ### Authentication
